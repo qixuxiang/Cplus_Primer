@@ -6,12 +6,14 @@
 #include<vector>
 #include<algorithm>
 using namespace std;
+
 typedef struct pair<int,float> PAIR_IF;
 bool judge(const pair<int,float>a,const pair<int,float>b)
 {
   return a.first<b.first;
   //return a.second<b.second;
 }
+
 int main(int argc, char const *argv[]) {
   pair<string,string>pr1=make_pair("hehe","ejje");
   pair<string,int> pr2("hehe",12);
